@@ -9,10 +9,16 @@ header .container {
 }
 #profile {
     display: flex;
-    gap: 32px;
+    gap: 32px
 }
 #profile > div {
     max-width:380px;
+}
+#profile img {
+    width: 176px;
+    height: 176px;
+    object-fit: cover;
+    border-radius:50%
 }
 #profile h1 {
     font: var(--text-lg);
